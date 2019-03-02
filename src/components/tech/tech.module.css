@@ -1,0 +1,106 @@
+:root {
+    --maincolor: rgba(116, 238, 249, 1);
+    --secondcolor: rgba(107, 15, 28, .99);
+    --rawmaincolor: #70e4ee;
+    --rawsecondcolor: #ed060b;
+}
+
+.tech {
+    border: 8px solid white;
+    padding-top: 100%;
+    position: relative;
+    /* If you want text inside of it */
+    margin-bottom: 16px;
+}
+
+.techContent {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.tech a {
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.tech h4,
+.tech h3,
+.tech h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.tech a:hover {
+    color: var(--secondcolor);
+    background: white;
+    transition: 0.25s;
+}
+
+.url {
+    border-bottom: 8px solid white;
+    margin: 0 -10px 0 -10px;
+    padding: 0px 18px 8px 18px;
+}
+
+.tech a:hover .url {
+    border-bottom: 8px solid var(--secondcolor);
+    margin: 0 -18px 0 -18px;
+    padding: 0px 26px 8px 26px;
+}
+
+.tech h4 {
+    font-size:1.2rem;
+}
+.tech h3 {
+    font-size:2.4rem;
+}
+.tech h2 {
+    font-size:3.4rem;
+}
+
+@media (max-width:550px) {
+    .tech h4 {
+        font-size:1.2rem;
+    }
+    .tech h3 {
+        font-size:1.5rem;
+    }
+    .tech h2 {
+        font-size:4.6vw;
+    }
+    .url {
+        border-bottom: 8px solid white;
+        margin: 0 -10px 0 -10px;
+        padding: 0px 12px 4px 12px;
+    }
+    .tech a:hover .url {
+        border-bottom: 8px solid var(--secondcolor);
+        margin: 0 -18px 0 -18px;
+        padding: 0px 12px 8px 20px;
+    }
+    .tech {
+        margin-bottom: 8px;
+        padding-top: 130%;
+
+    }
+}
+
+@media (max-width: 420px) {
+    .tech {
+        margin-bottom: 8px;
+        padding-top: 170%;
+
+    }
+}

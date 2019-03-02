@@ -1,0 +1,207 @@
+
+
+:root {
+    --secondcolor: rgba(107,15,28, .99);
+  }
+  
+.devWrapper {
+    display: grid;
+    grid-gap: 84px;
+    grid-template-columns: 5fr 5fr;
+    padding: 8px 8px 0 8px;
+    max-width: 760px;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+}
+
+.articles,
+.techs {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.whoIAm {
+    position: relative;
+    background-size: contain;
+    padding: 64px;
+    color:  white;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr auto;
+    max-width: 1080px;
+    margin:auto;
+}
+
+.photo {
+    background: var(--secondcolor);
+
+}
+
+.profilePic {
+    background: var(--secondcolor);
+    filter: grayscale(100%) contrast(1.2);
+    mix-blend-mode: lighten;
+    width: 100%;;
+    min-width: 520px;
+}
+
+
+.profilePic:after {
+    background: var(--secondcolor);
+    mix-blend-mode: lighten;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+
+.faq {
+    padding: 8px ;
+    color:  white;
+    margin: 0 auto;
+    max-width: 1080px;
+
+}
+
+.whoIAm h1, h2 {
+    margin:0;
+}
+
+
+.whoIAm ul {
+    padding: 0;
+}
+
+.whoIAm li {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+
+.sectionTitle {
+    text-align: center;
+    color:white;
+}
+
+.sectionTitle h2 {
+    text-transform: uppercase;
+}
+
+.sectionTitle p {
+    padding: 10px;
+}
+
+.learnMore,
+.whoIAm ul li a {
+    color: white;
+    font-weight: 600;
+}
+
+
+.about {
+    width: 100%;
+    background: white;
+    color:  var(--secondcolor);
+    padding-bottom: 64px;
+}
+
+.sorus {
+    padding: 16px 8px;
+    text-align: center;
+}
+
+.sorus h2 {
+    margin:16px 0;
+}
+
+.aboutSection {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 8px;
+    grid-template-rows: 1fr;
+    text-transform: uppercase;
+    font-weight: 600;
+    max-width: 1080px;
+    margin:auto;
+}
+
+.aboutSection article {
+    border: 8px solid  var(--secondcolor);
+    color:  var(--secondcolor);
+    padding: 16px;
+}
+
+.aboutSection article li a {
+    color:  var(--secondcolor);
+}
+
+.presentation {
+    z-index: 2;
+}
+
+
+@media (max-width: 960px) {
+    .profilePic {
+        min-width: 360px;
+    }
+}
+
+@media (max-width: 720px) {
+    .profilePic {
+        min-width: 280px;
+    }
+    .aboutSection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media (max-width:660px) {
+    .whoIAm {
+
+        grid-template-columns: 1fr;
+    }
+    .profilePic {
+        min-width: 420px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .sectionTitle h2 {
+        text-transform: uppercase;
+    }
+   
+    .profilePic {
+        min-width: 320px;
+    }
+
+    .devWrapper {
+        grid-gap: 16px;
+    }
+}
+
+
+@media (max-width:460px) {
+    .whoIAm {
+
+        padding: 32px;
+    }
+
+    .profilePic {
+        width: 100%;;
+        min-width: 250px;
+    }
+    
+}

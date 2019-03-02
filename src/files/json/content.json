@@ -1,0 +1,105 @@
+{
+    "tech": {
+        "1": {
+            "name": "Site Carte CO2",
+            "client": "450 SAS",
+            "tech": "GatsbyJS, React, JSON, CSS Modules",
+            "design": "Koality",
+            "designUrl": "https://koality.fr/",
+            "url": "https://carte.compteco2.com/"
+        },
+        "2": {
+            "name": "L'Arbre en Tête",
+            "client": "Françoise Carboulec",
+            "tech": "Custom CMS, ASP.NET MVC, Bootstrap, Jquery",
+            "design": "D'une idée l'autre",
+            "designUrl": "http://www.duneideelautre.com/",
+            "url": "http://www.larbre-en-tete.com/"
+        },
+        "3": {
+            "name": "Bas Gros Poing",
+            "client": "Association Bas Gros Poing",
+            "tech": "Kirby CMS, Susy Grid, OOCSS, ITCSS",
+            "design": "Guillaume Brindon",
+            "designUrl": "http://www.loeil-du-cyclone.com/",
+            "url": "http://basgrospoing.fr/"
+        },
+        "4": {
+            "name": "J'aime Concept Store",
+            "client": "J'aime Store",
+            "tech": "In house e-commerce platform, ASP.NET MVC, Bootstrap, Jquery",
+            "design": "Tanki",
+            "designUrl": "http://www.loeil-du-cyclone.com/",
+            "url": "http://jaime-store.com/"
+        },
+        "5": {
+            "name": "Site Eau Du Ponant",
+            "client": "Eau du Ponant",
+            "tech": "Custom CMS, ASP.NET MVC, Bootstrap, Jquery",
+            "design": "D'une idée l'autre",
+            "designUrl": "http://www.duneideelautre.com/",
+            "url": "https://www.eauduponant.fr/"
+        }
+    },
+    "articles":{
+        "1": {
+            "name": "Quand l'eSport n'est pas là, les familles bossent",
+            "client": "Bas Gros Poing",
+            "sujet": "Communautés",
+            "url": "https://basgrospoing.fr/fr/articles/quand-lesport-n-est-pas-la-les-familles-bossent"
+        },
+        "2": {
+            "name": "La surprenante histoire du studio French Bread",
+            "client": "Bas Gros Poing",
+            "sujet": "Reportage",
+            "url": "https://basgrospoing.fr/fr/articles/la-surprenante-histoire-du-studio-french-bread"
+        },
+        "3": {
+            "name": "Vous n'avez pas à être bons pour jouer aux jeux de baston",
+            "client": "Red Bull Esport",
+            "sujet": "Témoignage",
+            "url": "https://www.redbull.com/fr-fr/esport-jeux-combat-r-cade-cup"
+        },
+        "4": {
+            "name": "Ken Bogard, de prof de maths à producteur de tape",
+            "client": "Red Bull Esport",
+            "sujet": "Interview",
+            "url": "https://www.redbull.com/fr-fr/ken-bogard-interview-esport"
+        },
+        "5": {
+            "name": "L’histoire difficile de Marvel vs Capcom en France",
+            "client": "Red Bull Esport",
+            "sujet": "Communautés",
+            "url": "https://www.redbull.com/fr-fr/marvel-vs-capcom-infinite-esports"
+        }
+    },
+    "employers": {
+        "compteCo2": {
+            "name":"Compte CO2",
+            "url": "https://www.compteepargneco2.com/"
+        },
+        "RedBull": {
+            "name":"Red Bull Esports",
+            "url": "https://www.redbull.com/fr-fr/tags/esports"
+        },
+        "id3i": {
+            "name":"Id3i",
+            "url": "http://id3i.fr/"
+        },
+        "gamekult": {
+            "name":"Gamekult",
+            "url": "http://gamekult.com/"
+        },
+        "CanardPc": {
+            "name":"Canard PC",
+            "url": "https://www.canardpc.com/"
+        },
+        "Third": {
+            "name":"Third Editions",
+            "url": "https://www.thirdeditions.com/"
+        }
+    },
+    "skills": {
+        
+    }
+}

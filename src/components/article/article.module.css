@@ -1,0 +1,101 @@
+:root {
+    --maincolor: rgba(116, 238, 249, 1);
+    --secondcolor: rgba(107, 15, 28, .99);
+    --rawmaincolor: #70e4ee;
+    --rawsecondcolor: #ed060b;
+}
+
+.article {
+    border: 8px solid white;
+    padding-top: 100%;
+    position: relative;
+    /* If you want text inside of it */
+    margin-bottom: 16px;
+}
+
+.articleContent {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.article a {
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.article h4,
+.article h3,
+.article h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.article a:hover {
+    color: var(--secondcolor);
+    background: white;
+    transition: 0.25s;
+}
+
+.article:hover {
+    border: 8px solid white;
+}
+
+.article h4 {
+    font-size: 1.5rem;
+}
+
+.article h3 {
+    font-size: 2.4rem;
+}
+
+.article h2 {
+    font-size: 3.2rem;
+}
+
+@media (max-width:930px) {
+    .article h4 {
+        font-size: 2.6vw;
+    }
+    .article h3 {
+        font-size: 2.8vw;
+    }
+    .article h2 {
+        font-size: 4.6vw;
+    }
+}
+
+@media (max-width:550px) {
+    .article h2 {
+        font-size: 4.6vw;
+    }
+
+    .article h4 {
+        font-size: 3.6vw;
+    }
+    .article h3 {
+        font-size: 3.8vw;
+    }
+
+    .article {
+        padding-top: 130%;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 420px) {
+    .article {
+        margin-bottom: 8px;
+        padding-top: 170%;
+    }
+}
